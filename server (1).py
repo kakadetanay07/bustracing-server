@@ -30,8 +30,8 @@ app = Flask(__name__)
 
 # ── CORS (allow the HTML file opened from disk or localhost) ──────────────────
 ALLOWED_ORIGINS = {
-    "https://bustracingfinal.netlify.app",
-    "https://bustracing-server.onrender.com",
+    "https://bustracingfullandfinal.netlify.app/",
+    "https://bustracing-server-1.onrender.com",
     "null",
 }
 
@@ -44,7 +44,7 @@ def add_cors(response):
             or origin.startswith("http://127.0.0.1:")):
         response.headers["Access-Control-Allow-Origin"]  = origin
     else:
-        response.headers["Access-Control-Allow-Origin"]  = "https://bustracingfinal.netlify.app"
+        response.headers["Access-Control-Allow-Origin"]  = "https://bustracingfullandfinal.netlify.app/"
     response.headers["Access-Control-Allow-Headers"] = "Content-Type"
     response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
     return response

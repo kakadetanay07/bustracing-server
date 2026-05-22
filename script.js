@@ -14,7 +14,7 @@ firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
 
 // ── Python server ─────────────────────────────────────────────────────────────
-const PY = "https://yourusername.pythonanywhere.com";
+const PY = "https://bustracing-server.onrender.com";
 
 // ── Route stops: RIT Islampur → Aashta → Sangli Bus Stand (via NH-48) ────────
 const ROUTE_STOPS = [
