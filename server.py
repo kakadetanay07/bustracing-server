@@ -31,7 +31,7 @@ app = Flask(__name__)
 # ── CORS (allow the HTML file opened from disk or localhost) ──────────────────
 ALLOWED_ORIGINS = {
     "https://bustracingfullandfinal.netlify.app/",
-    "https://bustracing-server-1.onrender.com",
+    "https://bustracing-server.onrender.com",
     "null",
 }
 
